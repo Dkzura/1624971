@@ -1,0 +1,57 @@
+﻿body {
+
+}
+
+#Logo img{
+    padding-left: 450px;
+    padding-top:10px;
+}
+
+#Nav1{
+    float: right;
+}
+
+#Nav1 img{
+    height:20px;
+    width:20px;
+}
+
+#Nav1 ul li{
+    display:inline;
+    text-decoration:none;
+    color:black;
+    list-style:none;
+    padding-left:40px;
+    font-size:17px;
+   
+}
+
+#Nav1 a:link{
+    text-decoration:none;
+    color:black;
+}
+
+#Nav2{
+    float:left;
+    padding-left:360px;
+   
+}
+
+#Nav2 a:link{
+    text-decoration:none;
+    color:black;
+}
+
+#Nav2 ul li{
+    display:inline;
+    text-decoration:none;
+    color:black;
+    list-style:none;
+    padding-left:10px;
+    font-size:17px;
+    
+}
+
+#footer { clear:both;padding: 10px 0; border-top: 1px #000 dotted; }
+#footer p { text-align: center; font-weight: bold; font-size: 14px; }
+#footer a:link { color:black; text-decoration:none; }
