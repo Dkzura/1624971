@@ -1,57 +1,247 @@
-﻿body {
+﻿/* CLASS = HASHTAG, ID = DOT */
 
+body {
+    background-color:burlywood;
+    }
+
+p.login5 {
+    text-align:right;
+    font-family:'Bookman Old Style';
 }
 
-#Logo img{
-    padding-left: 450px;
-    padding-top:10px;
+p {
+    text-decoration:none;
+    color:black;
+    font-family:'Bookman Old Style';
+    margin-left: 40px;
+    direction: ltr;
 }
 
-#Nav1{
+#banner1 img {
+    padding-top:0px;
+    padding-bottom: 50px;
+    height:99%;
+    width:99%;
+    padding-right:300px;
+    float: left;
+  
+}
+
+#logo5 img {
+    padding-left:400px;
+    padding-top:15px;
+    position:center;
+   
+    
+}
+
+.content5 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 300px;
+    margin-right: 0px;
+}
+
+#h2{
+    text-align:center;
+    font-size:30px;
+    font-family:'Bookman Old Style';
+}
+
+h3{
+   
+    padding: 25px;
+    text-align:center;
+    font-size:14px;
+    font-family:'Bookman Old Style';
+    position:center;
+}
+
+
+#header {
+    float: left;
+    margin-left:50px;
+    padding-left:100px;
+    padding-top:0px;
+}
+
+
+#Navgg1{
     float: right;
+    
 }
 
-#Nav1 img{
-    height:20px;
-    width:20px;
+#Navgg1 img {
+    height: 20px;
+    width: 20px;  
 }
 
-#Nav1 ul li{
-    display:inline;
-    text-decoration:none;
-    color:black;
-    list-style:none;
-    padding-left:40px;
-    font-size:17px;
-   
-}
-
-#Nav1 a:link{
-    text-decoration:none;
-    color:black;
-}
-
-#Nav2{
-    float:left;
-    padding-left:360px;
-   
-}
-
-#Nav2 a:link{
-    text-decoration:none;
-    color:black;
-}
-
-#Nav2 ul li{
+#Navgg1 ul li{
     display:inline;
     text-decoration:none;
     color:black;
     list-style:none;
     padding-left:10px;
-    font-size:17px;
+    font-size:15px;
+    border-left: 1px solid black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
 
-#footer { clear:both;padding: 10px 0; border-top: 1px #000 dotted; }
-#footer p { text-align: center; font-weight: bold; font-size: 14px; }
-#footer a:link { color:black; text-decoration:none; }
+#Navgg1 a:link{
+    text-decoration:none;
+    color:black;
+    font-family: 'Bookman Old Style';
+
+}
+
+#head-navg {
+    margin-left:50px;
+    padding-left:100px;
+    padding-top:0px;
+    font-family: 'Bookman Old Style';
+}
+
+.head-navg {
+    width: auto;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+#nav-bar {
+    text-align:center;
+    align-content: center;
+    width: auto;
+    margin: auto;
+    font-family:'Bookman Old Style';
+}
+
+#main-nav li {
+    display: inline;
+    position: center;
+
+}
+
+#main-nav ul {
+    list-style-type: none;
+    margin-left: 200px;
+    padding: 8px;
+    font-family:'Bookman Old Style';
+    height: 55px;
+    width: 148px;
+    display:inline;
+    position:center;
+    text-align:center;
+   
+}
+
+#main-nav ul li {
+    display: inline-block;
+    position:center;
+    top: 0px;
+    left:0px;
+    width: 148px;
+    height: 55px;
+}
+
+#main-nav li a {
+    display: inline-block;
+    color:black;
+    text-align: center;
+    text-decoration: none;
+    width:148px;
+    height: 55px;
+}
+
+
+#Navgg2 {
+    display: inline;
+    position: relative;
+    float: left;
+    padding-left:330px;
+    text-align: center;
+    width: 860px;
+    height: 37px;
+    top: 4px;
+    left: -91px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+#Navgg2 a:link{
+    text-decoration:none;
+    color:black;
+   
+
+}
+
+#Navgg2 ul li{
+    display:inline;
+    text-decoration:none;
+    color:black;
+    list-style:none; 
+    padding-left:20px;
+    font-size:20px; 
+    font-family:'Bookman Old Style';
+    
+}
+
+
+.item1 {
+    float: right;
+    border: 5px solid black;
+    margin: 80px 50px 50px 50px;
+    border: 3px solid grey;
+    margin-top: 1px;
+    position: relative;
+    width: 225px;
+    height: 270px;
+    overflow: hidden;
+}
+
+.item1 img {
+    height: 100%;
+    width: 100%;
+}
+
+.item1 .prodtext {
+    position: absolute;
+    top: -100%;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%; 
+    height: 100%;
+    color: darksalmon;
+    -webkit-transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s; 
+    -o-transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s;
+    -moz-transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s;
+    transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s;
+}
+
+.item1:hover .prodtext {
+    top: 0px;
+}
+.item1 .prodtext h4 {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.item1 .prodtext p {
+    margin: 15px 0px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: arial;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+#footer5 { clear:both;padding: 10px 0; border-top: 1px black dotted; background-color:darksalmon;}
+#footer5 p {text-align: center; font-size: 13px; font-family:'Bookman Old Style';}
+#footer5 a:link{ color:black;text-decoration:none; font-family:'Bookman Old Style';}
+

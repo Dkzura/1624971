@@ -4,56 +4,79 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <link href="Index.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="Index.css" rel="stylesheet" type="text/css" media="screen" /> 
+    <title>Meirose Bawal</title>
 
-    <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
-</head>
-<body>
-    <form id="form1" runat="server">
-    <div id="Nav1">
-        <ul>
-            <li><a href="Register or Login.aspx">Register or Login</a></li>
-            <li><a href="Admin.aspx">Admin</a></li>
-            <li><a href="Cart.aspx">Cart</a></li>
+    </head>
+<body>  
+       <form id="form1" runat="server">
+     
 
-        </ul>
-    </div>
-
-        <div id="Logo">
-            <img src="Images/logo1.jpg" style="width: 274px" />
+        <div id="Navgg1"> 
+            
+        <p class="login5">
+            <a href="Login.aspx">Login</a> | 
+            <a href="Register.aspx">Register</a> |      
+            <a href="Add to Cart.aspx">Add to Cart</a>
+        </p>
+           
+        </div>
+         
+     <div id="logo5">
+     <img src="Images/logo1.jpg"/>
+     </div>
+ 
+     <div id="Navgg2">
+            
+                <ul>
+           <li><a href="Default.aspx">Home</a></li>
+           <li><a href="Shop.aspx">Shop</a></li>
+           <li><a href="New Arrival.aspx">New Arrival</a></li>
+           <li><a href="Contact.aspx">Contact us</a></li>
+           <li><a href="About.aspx">About us</a></li>
+               </ul>
 
             </div>
-
-    <div id="Nav2">
-       <ul>
             
-            <li><a href="Home.aspx">Home</a></li>
-            <li><a href="Shop.aspx">Shop</a></li>
-            <li><a href="New Arrivals.aspx">New Arrivals</a></li>
-            <li><a href="Contact Us.aspx">Contact Us</a></li>
-            <li><a href="About Us.aspx">About Us</a></li>
-        </ul>
+            <div id="content5">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
 
-        </div>
+            </asp:ContentPlaceHolder>
+            </div>
+               
+    
+       <div id="footer5">
 
-            <div id="content">
         
-        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-        
-        </asp:ContentPlaceHolder>
-    </div>
 
-        <div id="footer">
+<p>&copy;Copyright 2017 | Meirose Bawal | Bandar Seri Begawan | +673 888 12345 </p>
 
-            <p>&copy;Copyright 2017 | Meirose | BSB | +673 888 12345 </p>
+                <p>
+
+                <a href="Shop.aspx">Shop</a> |
+                <a href="New Arrival.aspx">New Arrival</a> |
+                <a href="Contact.aspx">Contact us</a> |
+                <a href="Admin.aspx">Admin </a> 
+                </p>
+
+                <p>
+                <a href="http://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a> |
+
+                <a href="http://validator.w3.org/check?uri=referer">Validate HTML</a> |
+
+                <a href="http://achecker.c/checker/?uri=referer">Check WCAG</a>
+                </p>
+
+       
+
+           </div>
+
+
+
+           </form>
             
-
-            <p><a href="http://jigsaw.w3.org/css-validator/check/referer">Validate HTML</a></p>
-            <p><a href="http://achecker.c/checker/?uri=referer">Check WCAG</a></p>
-            <p><a href="http://validator.w3.org/css-validator/check/referer">Validate CSS</a></p>
-        </div>
-    </form>
-</body>
+    </body>
 </html>
+ 

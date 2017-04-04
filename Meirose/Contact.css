@@ -1,0 +1,236 @@
+﻿body {
+     background-color:burlywood;
+} 
+   
+.txtbox {
+    text-align:center; 
+    position:center; 
+    padding:0px;
+    text-align:center;
+    padding-top:80px;
+   
+}
+
+.contactform {
+    Width:450px; 
+    Height:120px;
+}
+
+.contactform1{
+    width:355px;
+    height:30px;
+}
+  
+.BtnSendEmail {
+    Width:117px; 
+    Height:32px;
+    margin-bottom: 0px;
+    text-align:center;
+}
+
+.litResult{
+    text-align:center; 
+}
+
+h1{
+    padding-top: 20px;
+    font-size: 20px;
+    font-family:'Bookman Old Style';
+    font-style:italic;
+    /* position:center;
+    text-align: center; */
+}
+
+.h3{
+    font-family:'Bookman Old Style';
+    font-style:italic;
+    /* text-align:center;
+    position:center; */
+}
+
+h4{
+    font-family:'Bookman Old Style';
+    /* position:center; */
+
+}
+
+#div .h1 {
+    /* text-align: center; */
+}
+
+.content {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 200px;
+    margin-right: 0px;
+}
+#p {
+    text-decoration:none;
+    color:black;
+    font-family:'Bookman Old Style';
+    margin-left: 30px;
+    text-align:center;
+    font-size: 14px;
+    position:center;
+
+}
+
+p span {
+    color:red;
+}
+
+#logo img {
+    padding-left:400px;
+    padding-top:15px;
+    position:center;
+    
+    
+}
+
+#header {
+    float: left;
+    margin-left:50px;
+    padding-left:100px;
+    padding-top:0px;
+}
+
+#Navg1{
+    float: right;
+    
+}
+
+#Navg1 img {
+    height: 20px;
+    width: 20px;  
+}
+
+#Navg1 ul li{
+    display:inline;
+    text-decoration:none;
+    color:black;
+    list-style:none;
+    padding-left:10px;
+    font-size:15px;
+    border-left: 1px solid black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+#Navg1 a:link{
+    text-decoration:none;
+    color:black;
+    font-family: 'Bookman Old Style';
+
+}
+
+#head-navg {
+    margin-left:50px;
+    padding-left:100px;
+    padding-top:0px;
+    font-family: 'Bookman Old Style';
+}
+
+.head-navg {
+    width: auto;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+#nav-bar {
+    text-align:center;
+    align-content: center;
+    width: auto;
+    margin: auto;
+    font-family:'Bookman Old Style';
+}
+
+#main-nav li {
+    display: inline;
+    position: center;
+
+}
+
+#main-nav ul {
+    list-style-type: none;
+    margin-left: 200px;
+    padding: 8px;
+    font-family:'Bookman Old Style';
+    height: 55px;
+    width: 148px;
+    display:inline;
+    position:center;
+    text-align:center;
+   
+}
+
+#main-nav ul li {
+    display: inline-block;
+    position:center;
+    top: 0px;
+    left:0px;
+    width: 148px;
+    height: 55px;
+}
+
+#main-nav li a {
+    display: inline-block;
+    color:black;
+    text-align: center;
+    text-decoration: none;
+    width:148px;
+    height: 55px;
+}
+
+
+
+#Navg2 {
+    display: inline;
+    position: relative;
+    float: left;
+    padding-left:330px;
+    text-align: center;
+    width: 860px;
+    height: 38px;
+    top: 4px;
+    left: -91px;
+}
+
+#Navg2 a:link{
+    text-decoration:none;
+    color:black;
+   
+
+}
+
+#Navg2 ul li{
+    display:inline;
+    text-decoration:none;
+    color:black;
+    list-style:none; 
+    padding-left:20px;
+    font-size:20px; 
+    font-family:'Bookman Old Style';
+    
+}
+
+  
+#footer { clear:both;padding: 10px 0; border-top: 1px black dotted; }
+#footer p {text-align: center; font-size: 14px; font-family:'Bookman Old Style'; }
+#footer a:link{ color:black;text-decoration:none; font-family:"Bookman Old Style";}
+
+
+.newitemwrapper-contactmap {
+    margin: auto;
+}
+
+
+#map {
+    height:200px;
+    width:100px;
+    border:1px solid black;
+    float: left;
+    margin: 0px 100px;
+    padding: 0px 100px;
+    text-align: center;
+}
+
