@@ -186,8 +186,11 @@ h3{
     
 }
 
+.green h2 {
+    text-align: center;
+}
 
-.item1 {
+.pink {
     float: right;
     border: 5px solid black;
     margin: 80px 50px 50px 50px;
@@ -199,12 +202,12 @@ h3{
     overflow: hidden;
 }
 
-.item1 img {
+.pink img {
     height: 100%;
     width: 100%;
 }
 
-.item1 .prodtext {
+.pink .bawal {
     position: absolute;
     top: -100%;
     left: 0px;
@@ -218,10 +221,10 @@ h3{
     transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s;
 }
 
-.item1:hover .prodtext {
+.pink:hover .bawal {
     top: 0px;
 }
-.item1 .prodtext h4 {
+.pink .bawal h4 {
     font-size: 15px;
     font-weight: bold;
     text-align: center;
@@ -230,7 +233,7 @@ h3{
     margin-top: 10px;
 }
 
-.item1 .prodtext p {
+.pink .bawal p {
     margin: 15px 0px;
     text-align: center;
     padding-left: 5px;
