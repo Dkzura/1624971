@@ -21,7 +21,7 @@
     height:30px;
 }
   
-.BtnSendEmail {
+#BtnSendEmail {
     Width:117px; 
     Height:32px;
     margin-bottom: 0px;
@@ -37,15 +37,12 @@ h1{
     font-size: 20px;
     font-family:'Bookman Old Style';
     font-style:italic;
-    /* position:center;
-    text-align: center; */
+ 
 }
 
 .h3{
     font-family:'Bookman Old Style';
     font-style:italic;
-    /* text-align:center;
-    position:center; */
 }
 
 h4{

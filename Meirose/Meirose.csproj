@@ -80,6 +80,8 @@
     <Content Include="Global.aspx" />
     <Content Include="Images\banner.gif" />
     <Content Include="Images\banner1.gif" />
+    <Content Include="Images\fbicon.png" />
+    <Content Include="Images\igicon.jpg" />
     <Content Include="Images\logo1.jpg" />
     <Content Include="Images\satin1.jpg" />
     <Content Include="Images\satin2.jpg" />

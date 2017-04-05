@@ -32,7 +32,7 @@
             
                 <ul>
            <li><a href="Default.aspx">Home</a></li>
-           <li><a href="Shop.aspx">Shop</a></li>
+           <li><a href="Bawal.aspx">Bawal</a></li>
            <li><a href="Contact.aspx">Contact us</a></li>
            <li><a href="About.aspx">About us</a></li>
                </ul>
@@ -51,11 +51,10 @@
         
 
 <p>&copy;Copyright 2017 | Meirose Bawal | Bandar Seri Begawan | +673 888 12345 </p>
-
+                
                 <p>
 
-                <a href="Shop.aspx">Shop</a> |
-                <a href="New Arrival.aspx">New Arrival</a> |
+                <a href="Bawal.aspx">Bawal</a> |
                 <a href="Contact.aspx">Contact us</a> |
                 <a href="Admin.aspx">Admin </a> 
                 </p>
