@@ -19,13 +19,13 @@
         <p class="login5">
             <a href="Login.aspx">Login</a> | 
             <a href="Register.aspx">Register</a> |      
-            <a href="Add to Cart.aspx">Add to Cart</a>
+            <a href="AddtoCart.aspx">Add to Cart</a>
         </p>
            
         </div>
          
      <div id="logo5">
-     <img src="Images/logo1.jpg"/>
+     <img src="Images/logo1.jpg" alt="logo"/>
      </div>
  
      <div id="Navgg2">

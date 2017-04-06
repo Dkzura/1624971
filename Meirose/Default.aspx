@@ -6,10 +6,9 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     
     <div id="banner1">
-       <img src="Images/banner.gif" /> 
+       <img src="Images/banner.gif" alt="banner" /> 
     </div>
-                <h3> </h3>
-
+             
      <div id="blue">
                     <div class="green">
                         <h2> New Arrivals !</h2>
