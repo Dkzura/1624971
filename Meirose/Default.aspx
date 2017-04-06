@@ -12,102 +12,79 @@
 
      <div id="blue">
                     <div class="green">
-                        <h2>New Arrivals !</h2>
-                        <div class="pink" id="bawal1">
-                            <a href="New Arrival.aspx">                  
-                            <img src="images/satin1.jpg"/>
+                        <h2> New Arrivals !</h2>
+                        <div class="pink" id="bawal1">   
+                            <a href="Bawal.aspx"> </a>          
+                            <img src="images/satin1.jpg" alt="Bawal"/>
                             <div class="bawal">
                                 <h4>MEIROSE SATIN BAWAL FREESSIA</h4>
-                                <h3>BND$45.00</h3>       
-                            </div>
+                                <h3>BND$45.00</h3>  
+                            <p><a class="morebutton" href="Bawal.aspx" title="moreinfo">New Arrivals !</a></p>
+                      </div>
                         </div>
-                        </div>
+                           </div>
                         <div class="pink" id="bawal2">
-                            <img src="images/satin2.jpg"/>
+                            <a href="Bawal.aspx"> </a>
+                            <img src="images/satin2.jpg" alt="Bawal"/> 
                             <div class="bawal">
                                 <h4>MEIROSE BAWAL SATIN CARNOSA</h4>
                                 <h3>BND45.00</h3>
+                             <p><a class="morebutton" href="Bawal.aspx" title="moreinfo">New Arrivals !</a></p>
                           </div>
                         </div>
                         <div class="pink" id="bawal3">
-                            <img src="images/satin3.jpg"/>
+                            <a href="Bawal.aspx"> </a>
+                            <img src="images/satin3.jpg" alt="Bawal"/>
                             <div class="bawal">
                                 <h4>MEIROSE BAWAL SATIN ALPHINIA</h4>
                                 <h3>BND45.00</h3>
+                            <p><a class="morebutton" href="Bawal.aspx" title="moreinfo">New Arrivals !</a></p>
                             </div>
                         </div>
                         <div class="pink" id="bawal4">
-                            <img src="images/satin4.jpg"/>
+                             <a href="Bawal.aspx"> </a>
+                            <img src="images/satin4.jpg" alt="Bawal"/>
                             <div class="bawal">
                                 <h4>MEIROSE SATIN BAWAL RUSSELIA</h4>
-                                <h3>BND$45.00</h3>       
+                                <h3>BND$45.00</h3>     
+                             <p><a class="morebutton" href="Bawal.aspx" title="moreinfo">New Arrivals !</a></p>  
                             </div>
                         </div>
                         <div class="pink" id="bawal5">
-                            <img src="images/satin5.jpg"/>
+                            <a href="Bawal.aspx"> </a>
+                            <img src="images/satin5.jpg" alt="Bawal"/>
                             <div class="bawal">
                                 <h4>MEIROSE BAWAL SATIN FLUER</h4>
                                 <h3>BND45.00</h3>
+                            <p><a class="morebutton" href="Bawal.aspx" title="moreinfo">New Arrivals !</a></p>
                            </div>
                         </div>
                         <div class="pink" id="bawal6">
-                            <img src="images/satin6.jpg"/>
+                            <img src="images/satin6.jpg" alt="Bawal"/>
                             <div class="bawal">
                                 <h4>MEIROSE BAWAL SATIN MAGNOLIA</h4>
                                 <h3>BND45.00</h3>
+                            <p><a class="morebutton" href="Bawal.aspx" title="moreinfo">New Arrivals !</a></p>
                             </div>
                         </div>
                         <div class="pink" id="bawal7">
-                            <img src="images/satin7.jpg"/>
+                            <img src="images/satin7.jpg" alt="Bawal"/>
                             <div class="bawal">
                                 <h4>MEIROSE BAWAL SATIN OLEANDER</h4>
                                 <h3>BND45.00</h3>
+                            <p><a class="morebutton" href="Bawal.aspx" title="moreinfo">New Arrivals !</a></p>
                             </div>
-                        </div>
+                      </div>
                         <div class="pink" id="bawal8">
-                            <img src="images/satin2.jpg"/>
+                            <img src="images/satin2.jpg" alt="Bawal"/>
                             <div class="bawal">
                                 <h4>MEIROSE BAWAL SATIN CARNOSA</h4>
                                 <h3>BND45.00</h3>
+                            <p><a class="morebutton" href="Bawal.aspx" title="moreinfo">New Arrivals !</a></p>
                             </div>
                         </div>
                         
-                   </div>
-                
-                
-                  
-                
-             
-                
-                  
-                
-                
-                
-                  
-                
-             
-                
-                  
-                
-          
- 
-    </a>
-                
-                
-                  
-                
-             
-                
-                  
-                
-                
-                
-                  
-                
-             
-                
-                  
-                
+                   </div>              
           
  
 </asp:Content>
