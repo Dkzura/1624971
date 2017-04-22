@@ -1,13 +1,9 @@
 ﻿/* CLASS = HASHTAG, ID = DOT */
 
+/* FOR BACKGROUND COLOR OF THE WEBSITE */
 body {
     background-color:burlywood;
     }
-
-p.login5 {
-    text-align:right;
-    font-family:'Bookman Old Style';
-}
 
 p {
     text-decoration:none;
@@ -17,6 +13,7 @@ p {
     direction: ltr;
 }
 
+/* FOR BANNER OF THE WEBSITE */
 #banner1 img {
     padding-top:0px;
     padding-bottom: 50px;
@@ -24,9 +21,10 @@ p {
     width:99%;
     padding-right:300px;
     float: left;
-  
+    direction: ltr;
 }
 
+/* FOR LOGO OF THE WEBSITE */
 #logo5 img {
     padding-left:400px;
     padding-top:15px;
@@ -35,13 +33,81 @@ p {
     
 }
 
+/* LABEL FOR REGISTRATION PAGE */
+#LabelFirstName {
+   font-family:'Bookman Old Style';
+   text-align:center;
+}
+
+/* LABEL FOR REGISTRATION PAGE */
+#LabelLastName {
+    font-family: 'Bookman Old Style';
+    text-align: center;
+}
+
+/* LABEL FOR REGISTRATION PAGE */
+#LabelPassword {
+   font-family:'Bookman Old Style';
+   text-align:center;
+}
+
+/* LABEL FOR REGISTRATION PAGE */
+#LabelConfirmPass {
+   font-family:'Bookman Old Style';
+   text-align:center;
+}
+
+/* LABEL FOR REGISTRATION PAGE */
+#LabelPhoneNo {
+   font-family:'Bookman Old Style';
+   text-align:center;
+}
+
+/* LABELS FOR REGISTRATION AND LOGIN PAGE */
+#LabelEmail {
+    text-align:center;
+    font-family:'Bookman Old Style';
+}
+
+/* LABEL FOR LOGIN PAGE */
+#LabelUsername {
+   font-family:'Bookman Old Style';
+   text-align:center;
+}
+
+/* LABEL FOR LOGIN PAGE */
+#LabelPassword {
+   font-family:'Bookman Old Style';
+   text-align:center;
+
+}
+
+/* LABEL FOR CONTACT PAGE */
+#LabelName {
+    text-align:center;
+    font-family:'Bookman Old Style';
+}
+
+/* LABEL FOR CONTACT PAGE */
+#LabelSubject {
+    text-align:center;
+    font-family:'Bookman Old Style';
+}
+
+/* LABEL FOR CONTACT PAGE */
+#LabelMsg {
+    text-align:center;
+    font-family:'Bookman Old Style';
+}
+
 .content {
     margin-top: 80px;
     margin-bottom: 80px;
     margin-left: 200px;
     margin-right: 0px;
 }
-#p {
+
+.p {
     text-decoration:none;
     color:black;
     font-family:'Bookman Old Style';
@@ -52,6 +118,8 @@ p {
 
 }
 
+
+/* FOR REQUIRED FIELD */
 p span {
     color:red;
 }
@@ -63,13 +131,14 @@ p span {
     margin-right: 0px;
 }
 
-#h2{
+.h2{
+    padding-top:0px;
     text-align:center;
     font-size:30px;
     font-family:'Bookman Old Style';
 }
 
-h3{
+.h3{
    
     padding: 25px;
     text-align:center;
@@ -78,7 +147,7 @@ h3{
     position:center;
 }
 
-
+/* HEADER FOR THE ENTIRE WEBSITE */
 #header {
     float: left;
     margin-left:50px;
@@ -210,11 +279,13 @@ h3{
     padding-left:20px;
     font-size:20px; 
     font-family:'Bookman Old Style';
-    
+    direction: ltr;
 }
 
 .green h2 {
+    padding-top:0px;
     text-align: center;
+    direction: ltr;
 }
 
 .pink {
@@ -256,6 +327,14 @@ h3{
     margin-top: 10px;
 }
 
+.pink .bawal h3 {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
 .pink .bawal p {
     margin: 15px 0px;
     text-align: center;
@@ -266,37 +345,73 @@ h3{
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
+/* FOOTER FOR THE WHOLE WEBSITE */
 
 #footer5 { clear:both;padding: 10px 0; border-top: 1px black dotted; background-color:darksalmon;}
 #footer5 p {text-align: center; font-size: 13px; font-family:'Bookman Old Style';}
 #footer5 a:link{ color:black;text-decoration:none; font-family:'Bookman Old Style';}
 
 .txtbox {
+    float:left;
     text-align:center; 
     position:center; 
     padding:0px;
     text-align:center;
-    padding-top:80px;
+    padding-left:80px;
+    font-family:'Bookman Old Style';
    
 }
 
-.contactform {
-    Width:450px; 
-    Height:120px;
+.txtbox1 {
+    float:right;
+    text-align:center;
+    position:center;
+    padding:0px;
+    font-family:'Bookman Old Style';
+    text-align:center;
+    padding-right:80px;
+    
 }
 
-.contactform1{
+
+/* FOR REGISTRATION PAGE */
+.regform1 {
     width:355px;
     height:30px;
 }
-  
-#BtnSendEmail {
-    Width:117px; 
-    Height:32px;
-    margin-bottom: 0px;
-    text-align:center;
+
+/* FOR LOGIN PAGE */
+.loginform1 {
+    width:355px;
+    height:30px;
+    
 }
 
+/* FOR CONTACT PAGE */
+.contactform {
+    Width:450px; 
+    Height:120px;
+   
+}
+
+/* FOR CONTACT PAGE */
+.contactform1{
+    width:355px;
+    height:30px;
+    
+}
+ 
+/* BUTTON SEND FOR SENDING AN EMAIL FROM THE CONTACT PAGE */
+.BtnSendEmail {
+    Width:200px; 
+    Height:50px;
+    font-size:13px;
+    margin-bottom: 0px;
+    text-align:center;
+    font-family:'Bookman Old Style';
+}
+
+/* TO SHOW THE RESULT WHETHER THE MESSAGE HAS BEEN SUCCESSFULLY SEND OR NOT */
 .litResult{
     text-align:center; 
 }
@@ -306,7 +421,7 @@ h1{
     font-size: 20px;
     font-family:'Bookman Old Style';
     font-style:italic;
- 
+    direction: ltr;
 }
 
 .h3{
@@ -314,16 +429,46 @@ h1{
     font-style:italic;
 }
 
+
+
 h4{
     font-family:'Bookman Old Style';
 
 }
 
+
+/* BUTTON FOR THE INSIDE REGISTRATION AND LOGIN PAGE */
+#Button1 {
+    Width:150px;
+    Height:28px; 
+    font-size:13px;
+    font-family:'Bookman Old Style';
+    
+}
+
+/* BUTTON FOR THE INSIDE REGISTRATION AND LOGIN PAGE */
+#Button2 {
+    Width:150px;
+    Height:28px; 
+    font-size:13px;
+    font-family:'Bookman Old Style';
+}
+
+/* BUTTON FOR THE INSIDE REGISTRATION AND LOGIN PAGE */
+#Button3 {
+    Width:120px;
+    Height:28px; 
+    font-size:13px;
+    font-family:'Bookman Old Style';
+    
+}
+/* FOR MAPPING */
 .newitemwrapper-contactmap {
     margin: auto;
 }
 
 
+/* FOR MAPPING */
 #map {
     height:200px;
     width:100px;
@@ -333,3 +478,4 @@ h4{
     padding: 0px 100px;
     text-align: center;
 }
+

@@ -4,8 +4,9 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <link href="Index.css" rel="stylesheet" type="text/css" media="screen" /> 
+   
     <title>Meirose Bawal</title>
+    <link href="Index.css" rel="stylesheet" type="text/css" media="screen" /> 
 
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -35,7 +36,7 @@
            <li><a href="Bawal.aspx">Bawal</a></li>
            <li><a href="Contact.aspx">Contact us</a></li>
            <li><a href="About.aspx">About us</a></li>
-               </ul>
+                    </ul>
 
             </div>
             

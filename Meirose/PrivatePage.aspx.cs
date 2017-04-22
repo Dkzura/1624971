@@ -7,14 +7,9 @@ using System.Web.UI.WebControls;
 
 namespace Meirose
 {
-    public partial class Register : System.Web.UI.Page
+    public partial class PrivatePage : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        protected void TextBox1_TextChanged(object sender, EventArgs e)
         {
 
         }

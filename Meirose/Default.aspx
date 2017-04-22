@@ -18,7 +18,7 @@
                             <div class="bawal">
                                 <h4>MEIROSE SATIN BAWAL FREESSIA</h4>
                                 <h3>BND$45.00</h3>  
-                            <p><a class="morebutton" href="Bawal.aspx" title="moreinfo">New Arrivals !</a></p>
+                            <p><a class="morebutton" href="Bawal.aspx" title="moreinfo">Bawal</a></p>
                       </div>
                         </div>
                            </div>
@@ -28,7 +28,7 @@
                             <div class="bawal">
                                 <h4>MEIROSE BAWAL SATIN CARNOSA</h4>
                                 <h3>BND45.00</h3>
-                             <p><a class="morebutton" href="Bawal.aspx" title="moreinfo">New Arrivals !</a></p>
+                             <p><a class="morebutton" href="Bawal.aspx" title="moreinfo">Bawal</a></p>
                           </div>
                         </div>
                         <div class="pink" id="bawal3">
@@ -37,7 +37,7 @@
                             <div class="bawal">
                                 <h4>MEIROSE BAWAL SATIN ALPHINIA</h4>
                                 <h3>BND45.00</h3>
-                            <p><a class="morebutton" href="Bawal.aspx" title="moreinfo">New Arrivals !</a></p>
+                            <p><a class="morebutton" href="Bawal.aspx" title="moreinfo">Bawal</a></p>
                             </div>
                         </div>
                         <div class="pink" id="bawal4">
@@ -46,7 +46,7 @@
                             <div class="bawal">
                                 <h4>MEIROSE SATIN BAWAL RUSSELIA</h4>
                                 <h3>BND$45.00</h3>     
-                             <p><a class="morebutton" href="Bawal.aspx" title="moreinfo">New Arrivals !</a></p>  
+                             <p><a class="morebutton" href="Bawal.aspx" title="moreinfo">Bawal</a></p>  
                             </div>
                         </div>
                         <div class="pink" id="bawal5">
@@ -55,7 +55,7 @@
                             <div class="bawal">
                                 <h4>MEIROSE BAWAL SATIN FLUER</h4>
                                 <h3>BND45.00</h3>
-                            <p><a class="morebutton" href="Bawal.aspx" title="moreinfo">New Arrivals !</a></p>
+                            <p><a class="morebutton" href="Bawal.aspx" title="moreinfo">Bawal</a></p>
                            </div>
                         </div>
                         <div class="pink" id="bawal6">
@@ -63,7 +63,7 @@
                             <div class="bawal">
                                 <h4>MEIROSE BAWAL SATIN MAGNOLIA</h4>
                                 <h3>BND45.00</h3>
-                            <p><a class="morebutton" href="Bawal.aspx" title="moreinfo">New Arrivals !</a></p>
+                            <p><a class="morebutton" href="Bawal.aspx" title="moreinfo">Bawal</a></p>
                             </div>
                         </div>
                         <div class="pink" id="bawal7">
@@ -71,7 +71,7 @@
                             <div class="bawal">
                                 <h4>MEIROSE BAWAL SATIN OLEANDER</h4>
                                 <h3>BND45.00</h3>
-                            <p><a class="morebutton" href="Bawal.aspx" title="moreinfo">New Arrivals !</a></p>
+                            <p><a class="morebutton" href="Bawal.aspx" title="moreinfo">Bawal</a></p>
                             </div>
                       </div>
                         <div class="pink" id="bawal8">
@@ -79,7 +79,7 @@
                             <div class="bawal">
                                 <h4>MEIROSE BAWAL SATIN CARNOSA</h4>
                                 <h3>BND45.00</h3>
-                            <p><a class="morebutton" href="Bawal.aspx" title="moreinfo">New Arrivals !</a></p>
+                            <p><a class="morebutton" href="Bawal.aspx" title="moreinfo">Bawal</a></p>
                             </div>
                         </div>
                         

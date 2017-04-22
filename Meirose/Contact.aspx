@@ -18,7 +18,6 @@
             <asp:TextBox ID="TxtName" runat="server" CssClass="contactform1"></asp:TextBox>
             <span class="required">*</span> </p>
             
-                      
 
             <p> Email </p>           
             <p class="form-row form-row-wide"> 
