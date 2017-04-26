@@ -36,7 +36,7 @@
             <p> Message </p>
             <p class="form-row form-row-wide">
             <asp:TextBox ID="TxtMessage" runat="server" TextMode="MultiLine" CssClass="contactform"></asp:TextBox>
-            <span class="required">*</span><asp:RequiredFieldValidator ID="ReqValMsg" runat="server" ErrorMessage="Message cannot be empty" ControlToValidate="TxtName"></asp:RequiredFieldValidator> </p>
+            <span class="required">*</span><asp:RequiredFieldValidator ID="ReqValMsg" runat="server" ErrorMessage="Message cannot be empty" ControlToValidate="TxtMessage"></asp:RequiredFieldValidator> </p>
             
             
             <asp:Button ID="BtnSendEmail" runat="server" Text="Send" OnClick="BtnSendEmail_Click" Font-Bold="False" Font-Italic="False" Font-Names="Berlin Sans FB"/>
