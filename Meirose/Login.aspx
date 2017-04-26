@@ -20,12 +20,12 @@
              
     <asp:Label ID="LabelPassword" runat="server" Text="Password:"></asp:Label>    
     <p class="form-row form-row-wide"> 
-    <asp:TextBox ID="TextPassword" runat="server" CssClass="loginform1" OnTextChanged="TextPassword_TextChanged"></asp:TextBox>
+    <asp:TextBox ID="txtLogPassword" runat="server" CssClass="loginform1" OnTextChanged="TextPassword_TextChanged" TextMode="Password"></asp:TextBox>
     <span class="required">*</span> </p>
 
     <asp:Label ID="LabelEmail" runat="server" Text="Email Address:"></asp:Label>    
     <p class="form-row form-row-wide"> 
-    <asp:TextBox ID="TextEmail" runat="server" CssClass="loginform1"></asp:TextBox>
+    <asp:TextBox ID="txtLogEmail" runat="server" CssClass="loginform1"></asp:TextBox>
     <span class="required">*</span> </p>
     
     <p>
@@ -43,22 +43,22 @@
 
             <asp:Label ID="Username" runat="server" Text="Username:"></asp:Label>
             <p class="form-row form-row-wide">
-            <asp:TextBox ID="TextBox1" runat="server" CssClass="loginform1"></asp:TextBox>
+            <asp:TextBox ID="txtRegUsername" runat="server" CssClass="loginform1"></asp:TextBox>
             <span class="required">*</span> </p>
           
             <asp:Label ID="LabelPassword0" runat="server" Text="Password:"></asp:Label>
             <p class="form-row form-row-wide">
-            <asp:TextBox ID="TextPassword0" runat="server" CssClass="regform1"></asp:TextBox>
+            <asp:TextBox ID="txtRegPassword" runat="server" CssClass="regform1" TextMode="Password"></asp:TextBox>
             <span class="required">*</span> </p>
 
             <asp:Label ID="LabelConfirmPass" runat="server" Text="Confirm Password:"></asp:Label>
             <p class="form-row form-row-wide">
-            <asp:TextBox ID="TextConfirmPass" runat="server" CssClass="regform1"></asp:TextBox>
+            <asp:TextBox ID="txtConfirmPassword" runat="server" CssClass="regform1" TextMode="Password"></asp:TextBox>
             <span class="required">*</span> </p>
 
             <asp:Label ID="LabelEmail0" runat="server" Text="Email Address:"></asp:Label>
             <p class="form-row form-row-wide">
-            <asp:TextBox ID="TextEmail0" runat="server" CssClass="regform1"></asp:TextBox>
+            <asp:TextBox ID="txtRegEmail" runat="server" CssClass="regform1"></asp:TextBox>
             <span class="required">*</span>
             </p>
             <p>

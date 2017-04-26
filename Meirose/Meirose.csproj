@@ -121,6 +121,7 @@
     <Content Include="BOOKS.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
     <Content Include="Global.aspx" />
     <Content Include="Images\banner.gif" />
     <Content Include="Images\banner1.gif" />
@@ -213,6 +214,9 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Global.aspx.cs">
       <DependentUpon>Global.aspx</DependentUpon>

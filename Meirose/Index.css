@@ -21,7 +21,7 @@ p {
     width:99%;
     padding-right:300px;
     float: left;
-    direction: ltr;
+ 
 }
 
 /* FOR LOGO OF THE WEBSITE */
@@ -131,18 +131,19 @@ p span {
     margin-right: 0px;
 }
 
-.h2{
+h2{
+    position:center;
     padding-top:0px;
     text-align:center;
     font-size:30px;
     font-family:'Bookman Old Style';
 }
 
-.h3{
+h3{
    
     padding: 25px;
     text-align:center;
-    font-size:14px;
+    font-size:15px;
     font-family:'Bookman Old Style';
     position:center;
 }
@@ -283,9 +284,9 @@ p span {
 }
 
 .green h2 {
-    padding-top:0px;
+    padding:0px;
     text-align: center;
-    direction: ltr;
+   
 }
 
 .pink {
@@ -352,27 +353,21 @@ p span {
 #footer5 a:link{ color:black;text-decoration:none; font-family:'Bookman Old Style';}
 
 .txtbox {
-    float:left;
     text-align:center; 
     position:center; 
     padding:0px;
     text-align:center;
-    padding-left:80px;
+    padding-top:80px;
     font-family:'Bookman Old Style';
    
 }
 
 .txtbox1 {
-    float:right;
-    text-align:center;
-    position:center;
-    padding:0px;
     font-family:'Bookman Old Style';
     text-align:center;
-    padding-right:80px;
-    
+    color:darkred;
+    font-style:italic;
 }
-
 
 /* FOR REGISTRATION PAGE */
 .regform1 {
@@ -439,7 +434,7 @@ h4{
 
 /* BUTTON FOR THE INSIDE REGISTRATION AND LOGIN PAGE */
 #Button1 {
-    Width:150px;
+    Width:120px;
     Height:28px; 
     font-size:13px;
     font-family:'Bookman Old Style';
@@ -454,22 +449,16 @@ h4{
     font-family:'Bookman Old Style';
 }
 
-/* BUTTON FOR THE INSIDE REGISTRATION AND LOGIN PAGE */
-#Button3 {
-    Width:120px;
-    Height:28px; 
-    font-size:13px;
-    font-family:'Bookman Old Style';
-    
-}
 /* FOR MAPPING */
 .newitemwrapper-contactmap {
     margin: auto;
+    direction: ltr;
 }
 
 
 /* FOR MAPPING */
 #map {
+   
     height:200px;
     width:100px;
     border:1px solid black;

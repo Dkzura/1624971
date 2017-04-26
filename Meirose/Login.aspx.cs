@@ -22,16 +22,16 @@ namespace Meirose
             var identityDbContext = new IdentityDbContext("IdentityConnectionString");
             var userStore = new UserStore<IdentityUser>(identityDbContext);
             var userManager = new UserManager<IdentityUser>(userStore);
-            var user = userManager.Find(TextPassword.Text, TextEmail.Text);
+            var user = userManager.Find(txtLogPassword.Text, txtLogEmail.Text);
             if (user !=null)
 
             {
-                LoginError.Text = "Successsfully Login";
+                LoginError.Text = "Successsfully Login!";
             }
 
             else
             {
-                LoginError.Text = "Invalid Username or Password.";
+                LoginError.Text = "Invalid Password or Email Address";
             }
 
         }
@@ -53,8 +53,8 @@ namespace Meirose
             var identityDbContext = new IdentityDbContext("IdentityConnectionString");
             var userStore = new UserStore<IdentityUser>(identityDbContext);
             var manager = new UserManager<IdentityUser>(userStore);
-            var user = new IdentityUser() { UserName = TextBox1.Text, Email = TextEmail0.Text };
-            IdentityResult result = manager.Create(user, TextPassword0.Text);
+            var user = new IdentityUser() { UserName = txtRegUsername.Text, Email = txtRegEmail.Text };
+            IdentityResult result = manager.Create(user, txtRegPassword.Text);
             if (result.Succeeded)
 
             {

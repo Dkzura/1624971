@@ -31,13 +31,13 @@ namespace Meirose {
         protected global::System.Web.UI.WebControls.Label LabelPassword;
         
         /// <summary>
-        /// TextPassword control.
+        /// txtLogPassword control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextPassword;
+        protected global::System.Web.UI.WebControls.TextBox txtLogPassword;
         
         /// <summary>
         /// LabelEmail control.
@@ -49,13 +49,13 @@ namespace Meirose {
         protected global::System.Web.UI.WebControls.Label LabelEmail;
         
         /// <summary>
-        /// TextEmail control.
+        /// txtLogEmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextEmail;
+        protected global::System.Web.UI.WebControls.TextBox txtLogEmail;
         
         /// <summary>
         /// Button1 control.
@@ -85,13 +85,13 @@ namespace Meirose {
         protected global::System.Web.UI.WebControls.Label Username;
         
         /// <summary>
-        /// TextBox1 control.
+        /// txtRegUsername control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.WebControls.TextBox txtRegUsername;
         
         /// <summary>
         /// LabelPassword0 control.
@@ -103,13 +103,13 @@ namespace Meirose {
         protected global::System.Web.UI.WebControls.Label LabelPassword0;
         
         /// <summary>
-        /// TextPassword0 control.
+        /// txtRegPassword control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextPassword0;
+        protected global::System.Web.UI.WebControls.TextBox txtRegPassword;
         
         /// <summary>
         /// LabelConfirmPass control.
@@ -121,13 +121,13 @@ namespace Meirose {
         protected global::System.Web.UI.WebControls.Label LabelConfirmPass;
         
         /// <summary>
-        /// TextConfirmPass control.
+        /// txtConfirmPassword control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextConfirmPass;
+        protected global::System.Web.UI.WebControls.TextBox txtConfirmPassword;
         
         /// <summary>
         /// LabelEmail0 control.
@@ -139,13 +139,13 @@ namespace Meirose {
         protected global::System.Web.UI.WebControls.Label LabelEmail0;
         
         /// <summary>
-        /// TextEmail0 control.
+        /// txtRegEmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextEmail0;
+        protected global::System.Web.UI.WebControls.TextBox txtRegEmail;
         
         /// <summary>
         /// Button3 control.
