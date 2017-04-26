@@ -24,7 +24,7 @@
             <p class="form-row form-row-wide"> 
             <asp:TextBox ID="TxtEmail" runat="server" placeholder="your@gmail.com" CssClass="contactform1"></asp:TextBox>
             <span class="required">*</span> <asp:RegularExpressionValidator ID="RegValEmail" runat="server" ErrorMessage="An email is invalid" ControlToValidate="TxtEmail" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
-                <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="TxtEmail" ErrorMessage="An email cannot be empty"></asp:RequiredFieldValidator>
+                <asp:RequiredFieldValidator ID="ReqFieldEmail" runat="server" ControlToValidate="TxtEmail" ErrorMessage="An email cannot be empty"></asp:RequiredFieldValidator>
                 </p>
           
 
@@ -40,7 +40,7 @@
             
             
             <asp:Button ID="BtnSendEmail" runat="server" Text="Send" OnClick="BtnSendEmail_Click" Font-Bold="False" Font-Italic="False" Font-Names="Berlin Sans FB"/>
-          
+      
             <asp:Literal ID="litResult" runat="server"></asp:Literal>
 
    </div>
