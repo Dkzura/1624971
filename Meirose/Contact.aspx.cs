@@ -32,9 +32,9 @@ namespace Meirose
             smtpClient.EnableSsl = true;
 
             //create credentials - e.g. username and password for the account
-            System.Net.NetworkCredential credentials = new System.Net.NetworkCredential("nazurahyussop@gmail.com", "926664dz");
+            System.Net.NetworkCredential credentials = new System.Net.NetworkCredential("nazurahyussop@gmail.com", "12345dkzura");
             smtpClient.Credentials = credentials;
-            msg = new MailMessage("nazurahyussop@gmail.com", TxtEmail.Text);
+            msg = new MailMessage("dk15zura@gmail.com", TxtEmail.Text);
             msg.Subject = "comment from " + TxtName.Text;
             msg.Body = TxtMessage.Text;
 
