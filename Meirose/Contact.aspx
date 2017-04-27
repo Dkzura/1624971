@@ -23,6 +23,7 @@
             <p class="form-row form-row-wide"> 
             <asp:TextBox ID="TxtEmail" runat="server" placeholder="your@gmail.com" CssClass="contactform1"></asp:TextBox>
             <span class="required">*</span>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="TxtEmail" ErrorMessage="An email is invalid" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
                 </p>
           
 

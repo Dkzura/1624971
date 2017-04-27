@@ -33,7 +33,7 @@ namespace Meirose
                 litResult.Text = "Please fill in the empty field.";
             }
 
-            else if
+            /*else if
                 (
                     // Test Email
                     ((!string.IsNullOrWhiteSpace(TxtName.Text)) &&
@@ -46,7 +46,7 @@ namespace Meirose
                     RegexOptions.IgnoreCase, TimeSpan.FromMilliseconds(250)))))
             {
                 litResult.Text = "Invalid email address.";
-            }
+            } */
 
             else
             {
