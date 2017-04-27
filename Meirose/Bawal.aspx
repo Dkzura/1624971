@@ -77,7 +77,6 @@
                             <p><a class="morebutton" href="Bawal.aspx" title="moreinfo">Bawal</a></p>
                             </div>
                         </div>
-                        
-                   </div>              
+                         
           
 </asp:Content>

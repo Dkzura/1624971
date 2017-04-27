@@ -16,7 +16,7 @@
             <p> Name </p>
             <p class="form-row form-row-wide">
             <asp:TextBox ID="TxtName" runat="server" CssClass="contactform1"></asp:TextBox>
-            <span class="required">*</span></p>
+            <span class="required">*</span><asp:RequiredFieldValidator ID="ReqValName" runat="server" ErrorMessage="Name should not be empty" ControlToValidate="TxtName"></asp:RequiredFieldValidator></p>
             
 
             <p> Email </p>           
@@ -24,18 +24,21 @@
             <asp:TextBox ID="TxtEmail" runat="server" placeholder="your@gmail.com" CssClass="contactform1"></asp:TextBox>
             <span class="required">*</span>
                 <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="TxtEmail" ErrorMessage="An email is invalid" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
+                <asp:RequiredFieldValidator ID="ReqValEmail" runat="server" ErrorMessage="Email should not be empty" ControlToValidate="TxtEmail"></asp:RequiredFieldValidator>
                 </p>
-          
 
             <p> Subject </p>
             <p class="form-row form-row-wide">
             <asp:TextBox ID="TxtSubject" runat="server" CssClass="contactform1"></asp:TextBox>
-            <span class="required">*</span> </p>
+            <span class="required">*</span> 
+                <asp:RequiredFieldValidator ID="ReqValSubject" runat="server" ErrorMessage="Subject should not be empty" ControlToValidate="TxtSubject"></asp:RequiredFieldValidator>
+                </p>
 
             <p> Message </p>
             <p class="form-row form-row-wide">
             <asp:TextBox ID="TxtMessage" runat="server" TextMode="MultiLine" CssClass="contactform"></asp:TextBox>
-            <span class="required">*</span></p>
+            <span class="required">*<asp:RequiredFieldValidator ID="ReqValMsg" runat="server" ErrorMessage="Message should not be empty" ControlToValidate="TxtMessage"></asp:RequiredFieldValidator>
+                </span></p>
             
             
             <asp:Button ID="BtnSendEmail" runat="server" Text="Send" OnClick="BtnSendEmail_Click" Font-Bold="False" Font-Italic="False" Font-Names="Berlin Sans FB"/>

@@ -22,6 +22,15 @@ namespace Meirose {
         protected global::System.Web.UI.WebControls.TextBox TxtName;
         
         /// <summary>
+        /// ReqValName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator ReqValName;
+        
+        /// <summary>
         /// TxtEmail control.
         /// </summary>
         /// <remarks>
@@ -40,6 +49,15 @@ namespace Meirose {
         protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator1;
         
         /// <summary>
+        /// ReqValEmail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator ReqValEmail;
+        
+        /// <summary>
         /// TxtSubject control.
         /// </summary>
         /// <remarks>
@@ -49,6 +67,15 @@ namespace Meirose {
         protected global::System.Web.UI.WebControls.TextBox TxtSubject;
         
         /// <summary>
+        /// ReqValSubject control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator ReqValSubject;
+        
+        /// <summary>
         /// TxtMessage control.
         /// </summary>
         /// <remarks>
@@ -56,6 +83,15 @@ namespace Meirose {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TxtMessage;
+        
+        /// <summary>
+        /// ReqValMsg control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator ReqValMsg;
         
         /// <summary>
         /// BtnSendEmail control.
